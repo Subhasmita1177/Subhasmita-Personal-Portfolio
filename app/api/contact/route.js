@@ -1,5 +1,5 @@
-import connectDB from "@/app/lib/mongodb";
-import Contact from "@/app/models/Contact";
+import connectDB from "@/app/lib/mongodb.js";
+import Contact from "@/app/models/Contact.js";
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
 
